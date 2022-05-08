@@ -1,0 +1,2 @@
+pgsync --config /home/st14/Projects/Trainee/PERN/node-express-sequelize-project/es/schema.json --daemon
+

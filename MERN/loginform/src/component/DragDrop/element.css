@@ -1,0 +1,6 @@
+.board .element{
+    padding: 15px 25px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    background-color: blanchedalmond;
+}

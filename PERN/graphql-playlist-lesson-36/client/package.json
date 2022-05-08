@@ -1,0 +1,62 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "3.4.15",
+    "@emotion/react": "11.4.1",
+    "@emotion/styled": "11.3.0",
+    "@mui/icons-material": "5.0.3",
+    "@mui/material": "5.0.3",
+    "@mui/styles": "5.0.1",
+    "graphql": "15.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "subscriptions-transport-ws": "0.9.19",
+    "webpack": "4.44.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public"
+  },
+  "devDependencies": {
+    "@storybook/addon-a11y": "6.3.12",
+    "@storybook/addon-actions": "6.3.12",
+    "@storybook/addon-cssresources": "6.2.9",
+    "@storybook/addon-essentials": "6.3.12",
+    "@storybook/addon-links": "6.3.12",
+    "@storybook/addon-viewport": "6.3.12",
+    "@storybook/node-logger": "6.3.12",
+    "@storybook/preset-create-react-app": "3.2.0",
+    "@storybook/react": "6.3.12"
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

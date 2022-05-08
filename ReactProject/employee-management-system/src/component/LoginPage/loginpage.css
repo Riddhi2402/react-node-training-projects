@@ -1,0 +1,18 @@
+.login-card {
+  background-color: lightgrey;
+  width: 40%;
+  margin: 9% 0 0 31%;
+  padding: 45pt 50pt 45pt 50pt;
+}
+
+.login-btn {
+  float: left;
+}
+
+.register-btn {
+  float: right;
+}
+
+.navbar{
+  background-color: lightgrey;
+}

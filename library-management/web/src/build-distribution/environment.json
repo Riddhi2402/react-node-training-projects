@@ -1,0 +1,14 @@
+{
+  "development": {
+    "SERVER_SIDE_DOMAIN": "localhost:4000",
+    "CLIENT_SIDE_DOMAIN": "dev-client-side-domain"
+  },
+  "staging": {
+    "SERVER_SIDE_DOMAIN": "staging-server-side-domain",
+    "CLIENT_SIDE_DOMAIN": "staging-client-side-domain"
+  },
+  "production": {
+    "SERVER_SIDE_DOMAIN": "production-server-side-domain",
+    "CLIENT_SIDE_DOMAIN": "production-client-side-domain"
+  }
+}

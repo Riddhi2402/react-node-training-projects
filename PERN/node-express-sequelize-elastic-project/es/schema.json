@@ -1,0 +1,11 @@
+[
+  {
+    "database": "postgres",
+    "index": "search_index",
+    "nodes": {
+      "table": "UserData",
+      "schema": "public",
+      "columns": ["id", "firstname", "lastname", "description"]
+    }
+  }
+]
